@@ -1,0 +1,283 @@
+body
+{
+    font-family: 'Montserrat-Black', sans-serif;
+   text-align: center;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+.Big-heading
+{
+        font-size:3.5rem;
+        line-height: 1.5;
+        font-weight: 750;    
+}
+
+.section-heading
+{
+    font-size: 3rem;
+    color: #fff;
+    line-height: 4rem;
+
+}
+
+.container-fluid
+{
+  padding: 7% 15% ;
+
+}
+/* ---------------------------------------------NAVIGATION-BAR----------------------------------------- */
+
+
+.navbar-brand
+{
+    font-family: 'Ubuntu',serif;
+    font-size: x-large;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+.nav-item
+{
+    margin: 0 25px 50px;
+    font-family: 'Montserrat-Light',sans-serif;
+}
+
+/* -----------------------------------------Sections(color)---------------------------------------------- */
+
+.colored-section
+{
+    color: white;
+    background-color: #ff4c68;
+}
+
+/* .colored-section 
+{
+    
+} */
+.white-colored
+{
+    background-color: #fff;
+}
+
+/* ------------------------------------------------------Title---------------------------------------- */
+#title
+{     
+    text-align: left;
+}
+
+
+.title-img
+{
+    width: 230px;
+    transform: rotate(25deg);
+    margin-left: 6%;
+    position: absolute;
+}
+
+.Download
+{
+  margin-right: 3.5%;
+  margin-bottom: 5%;
+}
+
+#title .container-fluid
+{
+  padding: 3% 15% 5% ;
+
+}
+
+/* ---------------------------------------------------Features -------------------------------------------------*/
+#features
+{   
+    position: relative;
+     z-index: 1;
+}
+
+.features-text
+{
+    color:#8f8f8f;
+}
+
+
+
+.icon:hover
+{
+    color:#ff4c68;
+}
+.icon
+{  
+    color:#ef8172;
+    margin-bottom: 20px;
+    margin-top:45px;
+}
+
+
+/* -------------------------------------------------Testimonials----------------------------------------------------- */
+
+#testimonials
+{
+background-color:#ef8172;
+margin-top: 45px;
+
+
+}
+
+.testimonial-img
+{
+ width:15%;
+ border-radius: 100px;
+ 
+}
+
+.carousel-item
+{
+    padding: 7% 15%;
+}
+
+
+#press
+{
+ background-color:#ef8172;
+ padding-bottom:40px;
+ 
+}
+
+.press-images
+{
+  width:180px;
+  padding:10px 20px;
+  
+
+}
+/* -----------------------------------------------------pricing-------------------------------------------------- */
+.pricing-1 .button
+{
+    margin-top: 20px;
+}
+
+.pricing-2 .button , .pricing-3 .button
+{
+    margin-top: 20px;
+    background-color: #ef8172;
+   
+}
+
+
+.pricing-1 .button:hover , .pricing-2 .button:hover , .pricing-3 .button:hover
+{
+    background-color: #d47364;
+}
+
+.card-header
+{
+    background-color: #ef8172;
+}
+
+.card-group
+{
+    display:inline;
+}
+
+.card-text
+{
+    color: #8f8f8f;
+   
+}
+
+.pricing-1 , .pricing-2
+{/*    margin-top: 40px; */
+    padding-top: 75px;
+}
+
+.pricing-3
+{
+    
+    padding-top: 35px;
+}
+
+.pricing-text
+{   font-size: 1.3rem;
+    color: #8f8f8f;
+    margin-bottom: 40px;
+}
+#pricing
+
+{    padding-top:70px ;
+       width: 75%;
+    margin: 0 auto;
+    padding-bottom: 120px;  
+    
+
+}
+.pricing-heading
+{
+font-size: 3rem;
+line-height: 4rem;
+}
+
+.card
+{ 
+    margin-right: 45px;
+    margin-bottom: 20px;
+}
+ 
+#pricing h3
+{ 
+    color: #fff;
+}
+
+#pricing h2
+{
+    color: #ef8172;
+}
+
+/* -----------------------------------responsive ------------------MEDIA QUERY---------------------------------*/
+@media (max-width:1070px)
+ {
+    #title
+    {text-align: center;}
+
+    .title-img{
+        transform:rotate(0deg);
+        position:static;
+    }
+   h1{
+    text-align:center;
+   }
+  
+}
+/* -------------------------------------------------call to action-------------------------------------------------------- */
+
+.cta-head
+{
+    line-height: 1.5;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.download
+{   margin-top: 35px;
+    margin-right: 3.5%;
+}
+
+/* --------------------------------------------------Footer ----------------------------------------------------------*/
+#footer
+{
+    padding-left: 5% 15%;
+   
+    margin-top: 50px;
+}
+.fa-brands
+{
+    margin: 10px;
+}
+.fa-solid
+{
+    margin: 10px;
+}
+.copyright
+{
+    color: #8f8f8f;
+}
